@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 5px;
+            padding: 3px;
+            
+        }
+        body{
+            font-size: large;
+            font-weight: 500;
+            margin: 100px;
+            border: 2px solid black;
+            padding: 30px;
+            background-image: url("book.jpg");
+            backdrop-filter: blur(5px);
+            background-size: 1062px 1062px;
+            background-repeat: no-repeat;
+            background-position: 102px;
+            background-color: rgba(166, 176, 197, 0.466);
+            width: 1000px;
+            height: 1000px;
+        }
+        main{
+            text-align: center;
+        }
+        input{
+            width: 500px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <main>
+    <input placeholder="enter the word" id="word" type="text" ><br><br>
+    <button type="submit" id="search">search</button>
+    </main>
+    <ul id="list"></ul>
+    <script src="script1.js"></script>
+</body>
+</html>
